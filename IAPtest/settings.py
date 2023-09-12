@@ -74,6 +74,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'IAPtest.wsgi.application'
 
 
+DATABASE_ROUTERS = [
+    'IAP.dbrouter.MultiDBRouter',
+]
+
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
